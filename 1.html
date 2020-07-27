@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css">
+		<script src="js/jquery.min.js"></script>
+		<script src="js/jquery.mobile-1.4.5.js"></script>
+		<link rel="stylesheet" href="css/1.css">
+		<script src="js/111.js"></script>
+	</head>
+
+	<body>
+
+		<div data-role="page" id="home">
+			<div data-role="header" data-position="fixed">
+				<h1><img src="image/Go.png"></h1>
+				<a href="#overlayPanel" class="ui-btn ui-corner-all ui-icon-bars ui-btn-icon-notext ui-btn-right ui-nodisc-icon ui-alt-icon " id="aaa"></a>
+			</div>
+
+			<div data-role="main">
+
+				<img src="image/风景.png"></img>
+
+				<div class="ui-content show">
+					<a href="#plan">
+						<h1>旅游规划</h1></a>
+					<h3>万事具备，只欠出发						
+					<a href="#plan" class="ui-btn ui-btn-inline ui-icon-carat-r ui-btn-icon-notext ui-corner-all ui-nodisc-icon ui-alt-icon"></a>
+					</h3>
+				</div>
+
+				<div class="concent">
+					<div class="box">
+						<div>
+							<img src="image/时间.png" />
+							<p><b>时间自由</b></p>
+						</div>
+						<div>
+							<img src="image/感兴趣.png" />
+							<p><b>随心所欲</b></p>
+						</div>
+						<div>
+							<img src="image/价格预测.png" />
+							<p><b>价格预测</b></p>
+						</div>
+						<div>
+							<img src="image/一站式服务.png" />
+							<p><b>一站式服务</b></p>
+						</div>
+						<div>
+							<img src="image/安全出行.png" />
+							<p><b>安全出行</b></p>
+						</div>
+					</div>
+
+				</div>
+				<hr />
+
+				<div class="ui-content show">
+					<a href="#strategy"></a>
+					<h1>旅游攻略</h1>
+					<h3>攻略在手，旅游无忧
+					<a href="#strategy" class="ui-btn ui-btn-inline ui-icon-carat-r ui-btn-icon-notext ui-corner-all ui-nodisc-icon ui-alt-icon"></a>
+					</h3>
+				</div>
+
+				<div class="concent">
+					<div class="box">
+						<div>
+							<img src="image/吃.png" />
+							<p><b>吃</b></p>
+						</div>
+						<div>
+							<img src="image/住.png" />
+							<p><b>住</b></p>
+						</div>
+						<div>
+							<img src="image/路线.png" />
+							<p><b>行</b></p>
+						</div>
+						<div>
+							<img src="image/景点.png" />
+							<p><b>玩</b></p>
+						</div>
+						<div>
+							<img src="image/购物.png" />
+							<p><b>购</b></p>
+						</div>
+					</div>
+				</div>
+
+				<hr />
+
+				<div class="ui-content show">
+					<h1>意见反馈</h1>
+					<h3>您的反馈是我们不断前进的动力</h3>
+					<form method="post" action="">
+						<div data-role="fieldcontain">
+							<input type="text" name="text" id="name" placeholder="请填写联系方式">
+						</div>
+						<div data-role="fieldcontain">
+							<fieldset data-role="fieldcontain">
+								<select name="question" id="question">
+									<option value="guihua">规划服务</option>
+									<option value="gonglue">攻略服务</option>
+									<option value="bug">bug</option>
+									<option value="qita">其它问题</option>
+								</select>
+							</fieldset>
+						</div>
+						<div class="ui-field-contain">
+							<textarea name="addinfo" id="info" placeholder="请填写具体内容"></textarea>
+						</div>
+						<div data-role="fieldcontain" style="text-align: center;">
+							<a href="#myPopup" data-rel="popup" class="ui-btn" id="btn" data-transition="slideup">提交</a>
+						</div>
+						<div data-role="popup" id="myPopup">
+							<p>提交成功，感谢反馈</p>
+						</div>
+					</form>
+				</div>
+			</div>
+
+			<div class="footer ui-content">
+				<ul class="top">
+					<li>
+						<img src="image/QQ.png" />
+					</li>
+					<li>
+						<img src="image/微信.png" />
+					</li>
+					<li>
+						<img src="image/微博.png" />
+					</li>
+					<li>
+						<img src="image/邮箱.png" />
+					</li>
+				</ul>
+
+			</div>
+
+			<div data-role="panel" id="overlayPanel" data-position="right" data-display="overlay" class="sadasd">
+				<h1 class="sa3">Go旅游
+				<img src="image/Go.png" style="float: right;"/>
+				</h1>
+				<p>
+					<a href="#" class="ui-btn ui-icon-home ui-btn-icon-left">主页</a>
+				</p>
+				<p>
+					<a href="#plan" class="ui-btn ui-icon-mail ui-btn-icon-left">旅游规划</a>
+				</p>
+				<p>
+					<a href="#strategy" class="ui-btn ui-icon-search ui-btn-icon-left">旅游攻略</a>
+				</p>
+				<p>
+					<a href="#" class="ui-btn ui-icon-phone ui-btn-icon-left">联系我们</a>
+				</p>
+			</div>
+
+		</div>
+
+		<div data-role="page" id="plan">
+			<div data-role="header" data-position="fixed">
+				<h1><img src="image/Go.png"></h1>
+				<a href="#overlayPanel" class="ui-btn ui-corner-all ui-icon-bars ui-btn-icon-notext ui-btn-right ui-nodisc-icon ui-alt-icon " id="aaa"></a>
+			</div>
+
+			<div data-role="main">
+				<img src="image/规划.png"></img>
+			</div>
+
+			<div class="ui-content show aaaa">
+				<form method="post" action="">
+					<div data-role="fieldcontain">
+						<input type="text" name="text" id="name" value="" placeholder="出发地">
+						<input type="text" name="text" id="name1" value="" placeholder="目的地">
+						<input type="text" name="text" id="name1" value="" placeholder="联系方式">
+					</div>
+					<div data-role="fieldcontain">
+						<input type="text" name="text" id="name" value="" placeholder="出行人数">
+						<input type="text" name="text" id="name1" value="" placeholder="预算金额">
+					</div>
+					<div data-role="fieldcontain">
+						<label for="date" style="margin-top: 13px;">出行时间</label>
+						<input type="date" name="date" id="date" value="">
+					</div>
+					<div data-role="fieldcontain">
+						<label for="date" style="margin-top: 13px;">返程时间</label>
+						<input type="date" name="date" id="date" value="">
+					</div>
+					<div data-role="fieldcontain">
+						<fieldset data-role="fieldcontain">
+							<select name="question" id="question">
+								<option value="guihua">请选择出行工具</option>
+								<option value="guihua">飞机</option>
+								<option value="guihua">高铁</option>
+								<option value="gonglue">火车</option>
+								<option value="bug">大巴</option>
+							</select>
+						</fieldset>
+					</div>
+					<div class="ui-field-contain">
+						<textarea name="addinfo" id="info" placeholder="请填写需求条件，如方便交通，远离市区"></textarea>
+					</div>
+					<div data-role="fieldcontain" style="text-align: center;">
+						<a href="#Popup" data-rel="popup" class="ui-btn" id="btn" data-transition="slideup">提交</a>
+					</div>
+					<div data-role="popup" id="Popup">
+						<p>提交成功，请等待回访电话</p>
+					</div>
+				</form>
+			</div>
+
+			<div class="footer ui-content">
+				<ul class="top">
+					<li>
+						<img src="image/QQ.png" />
+					</li>
+					<li>
+						<img src="image/微信.png" />
+					</li>
+					<li>
+						<img src="image/微博.png" />
+					</li>
+					<li>
+						<img src="image/邮箱.png" />
+					</li>
+				</ul>
+			</div>
+
+			<div data-role="panel" id="overlayPanel" data-position="right" data-display="overlay" class="sadasd">
+				<h1 class="sa3">Go旅游
+				<img src="image/Go.png" style="float: right;"/>
+				</h1>
+				<p>
+					<a href="#home" class="ui-btn ui-icon-home ui-btn-icon-left">主页</a>
+				</p>
+				<p>
+					<a href="#" class="ui-btn ui-icon-mail ui-btn-icon-left">旅游规划</a>
+				</p>
+				<p>
+					<a href="#strategy" class="ui-btn ui-icon-search ui-btn-icon-left">旅游攻略</a>
+				</p>
+				<p>
+					<a href="#" class="ui-btn ui-icon-phone ui-btn-icon-left">联系我们</a>
+				</p>
+			</div>
+
+		</div>
+
+		<div data-role="page" id="strategy">
+			<div data-role="header" data-position="fixed">
+				<h1><img src="image/Go.png"></h1>
+				<a href="#overlayPanel" class="ui-btn ui-corner-all ui-icon-bars ui-btn-icon-notext ui-btn-right ui-nodisc-icon ui-alt-icon " id="aaa"></a>
+			</div>
+
+			<div data-role="main">
+				<img src="image/指南.png"></img>
+
+				<div data-role="content">
+					<ul data-role="listview" data-inset="true" data-filter="true" data-filter-placeholder="地方搜索" style="margin-top: 20px;">
+						<li data-role="list-divider">A</li>
+						<li>
+							<a href="#">澳门</a>
+						</li>
+
+						<li data-role="list-divider">B</li>
+						<li>
+							<a href="#">北京</a>
+						</li>
+
+						<li data-role="list-divider">C</li>
+						<li>
+							<a href="#">长春</a>
+						</li>
+
+						<li data-role="list-divider">D</li>
+						<li>
+							<a href="#">大连</a>
+						</li>
+
+						<li data-role="list-divider">E</li>
+						<li>
+							<a href="#">二连浩特</a>
+						</li>
+						<li data-role="list-divider">X</li>
+						<li>
+							<a href="#HK">香港</a>
+						</li>
+					</ul>
+				</div>
+
+			</div>
+
+			<div class="footer ui-content">
+				<ul class="top">
+					<li>
+						<img src="image/QQ.png" />
+					</li>
+					<li>
+						<img src="image/微信.png" />
+					</li>
+					<li>
+						<img src="image/微博.png" />
+					</li>
+					<li>
+						<img src="image/邮箱.png" />
+					</li>
+				</ul>
+			</div>
+
+			<div data-role="panel" id="overlayPanel" data-position="right" data-display="overlay" class="sadasd">
+				<h1 class="sa3">Go旅游
+				<img src="image/Go.png" style="float: right;"/>
+				</h1>
+				<p>
+					<a href="#home" class="ui-btn ui-icon-home ui-btn-icon-left">主页</a>
+				</p>
+				<p>
+					<a href="#plan" class="ui-btn ui-icon-mail ui-btn-icon-left">旅游规划</a>
+				</p>
+				<p>
+					<a href="#" class="ui-btn ui-icon-search ui-btn-icon-left">旅游攻略</a>
+				</p>
+				<p>
+					<a href="#" class="ui-btn ui-icon-phone ui-btn-icon-left">联系我们</a>
+				</p>
+			</div>
+
+		</div>
+
+		<div data-role="page" id="HK">
+			<div data-role="header" data-position="fixed">
+				<h1><img src="image/Go.png"></h1>
+				<a href="#overlayPanel" class="ui-btn ui-corner-all ui-icon-bars ui-btn-icon-notext ui-btn-right ui-nodisc-icon ui-alt-icon " id="aaa"></a>
+			</div>
+
+			<div data-role="main">
+				<div class="MAPSS">
+					<img src="image/香港.jpg"></img>
+					<p>香港</p>
+					<p>Hong Kong</p>
+					<p>阴&nbsp;&nbsp;25-27℃</p>
+				</div>
+				<div data-role="content" id="asd">
+					<div class="wrap" id="wrap">
+						<ul class="tabClick">
+							<li class="active">景点</li>
+							<li>酒店</li>
+							<li>美食</li>
+							<li>购物</li>
+						</ul>
+						<div class="lineBorder">
+							<div class="lineDiv"></div>
+						</div>
+						<div class="tabCon">
+							<div class="tabBox">
+								<div class="tabList">
+									<div class="box box2">
+										<div>
+											<img src="image/香港迪士尼乐园.jpg" />
+											<p>香港迪士尼乐园</p>
+											<p>4.8</p>
+										</div>
+										<div>
+											<img src="image/香港海洋公园.jpg" />
+											<p>香港海洋公园</p>
+											<p>4.7</p>
+										</div>
+										<div>
+											<img src="image/太平山顶.jpg" />
+											<p>太平山顶</p>
+											<p>4.5</p>
+										</div>
+										<div>
+											<img src="image/维多利亚港.jpg" />
+											<p>维多利亚港</p>
+											<p>4.5</p>
+										</div>
+									</div>
+								</div>
+								<div class="tabList">
+									<div class="box box2">
+										<div>
+											<img src="image/香港皇悦卓越酒店.jpg" />
+											<p>香港皇悦卓越酒店(尖沙咀店)(Empire Prestige Tsim Sha Tsui)</p>
+											<p>4.8</p>
+										</div>
+										<div>
+											<img src="image/香港海洋公园.jpg" />
+											<p>香港海洋公园</p>
+											<p>4.7</p>
+										</div>
+										<div>
+											<img src="image/太平山顶.jpg" />
+											<p>太平山顶</p>
+											<p>4.5</p>
+										</div>
+										<div>
+											<img src="image/维多利亚港.jpg" />
+											<p>维多利亚港</p>
+											<p>4.5</p>
+										</div>
+									</div>
+								</div>
+								<div class="tabList">
+									<div class="box box2">
+										<div>
+											<img src="image/九记牛腩.jpg" />
+											<p>九记牛腩</p>
+											<p style="color: red;">美食林风味</p>
+										</div>
+										<div>
+											<img src="image/九记牛腩.jpg" />
+											<p>九记牛腩</p>
+											<p style="color: red;">美食林风味</p>
+										</div>
+										<div>
+											<img src="image/九记牛腩.jpg" />
+											<p>九记牛腩</p>
+											<p>4.4</p>
+										</div>
+										<div>
+											<img src="image/九记牛腩.jpg" />
+											<p>九记牛腩</p>
+											<p>4.4</p>
+										</div>
+									</div>
+								</div>
+								<div class="tabList">
+									<div class="box box2">
+										<div>
+											<img src="image/海港城.jpg" />
+											<p>海港城</p>
+											<p>4.7</p>
+										</div>
+										<div>
+											<img src="image/海港城.jpg" />
+											<p>海港城</p>
+											<p>4.7</p>
+										</div>
+										<div>
+											<img src="image/海港城.jpg" />
+											<p>海港城</p>
+											<p>4.7</p>
+										</div>
+										<div>
+											<img src="image/海港城.jpg" />
+											<p>海港城</p>
+											<p>4.7</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<hr />
+
+				<div class="ui-content show">
+					<h2>当地问答</h2>
+					<div data-role="collapsible">
+						<h1>第一次去香港哪里购物比较好？</h1>
+						<p>1:尖沙咀海港城，可以逛一天。</p>
+						<p>2:铜锣湾的时代广场，逛3个小时。SOGO崇光百货，经常有各种活动，优惠多多。西慎广场，潮牌时尚。 </p>
+						<p>3:旺角的波鞋街，一条街都是体育用品店，各种运动鞋，琳琅满目。 </p>
+						<p>4:黄金珠宝、手表、化妆品，尖沙咀、铜锣湾的街边店。当然，各大商场也都有。</p>
+					</div>
+					<div data-role="collapsible">
+						<h1>吃货一枚，去香港玩有什么正宗的当地美食值得吃呀？</h1>
+						<p>1、流浮山</p>
+						<p>在香港想吃到正宗又实惠的海鲜，最佳的去吃恐怕就是流浮山了。从福山过关，楼下坐B2到元朗千色广场换城巴就到了流浮山。这里实际上是海边的一个小渔村，宽不足两米，长约两百米左右，有各式各样的小酒楼、海鲜档、海鲜干味货档，可能粗略一看有六七十家吧。最然因为人多坐的会有点拥挤，但是厨师手艺十分了得，海鲜的色、鲜、甜发挥的淋漓尽致，而且价格也不算贵，吃完真的感觉超满足。来此一游，不枉香港一行。</p>
+						<p>2、陆羽 </p>
+						<p>这里是大名鼎鼎的蔡澜推荐过的茶楼，陆羽茶室已有六十多年历史, 却依旧保持着旧式香港茶楼的格调 , 室内装潢古色古香, 穿着传统唐装的老侍应生及充满怀旧气息的菜,让人深深感受到在这里 ， 彷佛回到香港五六十年代的茶楼。茶室共有三层楼, 一楼为散客接待区, 二, 三楼则为团体订位区 , 不想被打扰的客人也可以在此另辟房间谈事. 最特别可以品尝其他餐厅觉得麻烦不做的点心, 像滑鸡球大包, 虾仁鲜荷饭 ,云腿鲮鱼角都是非常难得的小品, 绝对是陆羽茶室的一绝。 </p>
+					</div>
+				</div>
+				<div class="hrs">
+					<a>查看全部问答</a>
+				</div>
+
+			</div>
+
+			<div class="footer ui-content">
+				<ul class="top">
+					<li>
+						<img src="image/QQ.png" />
+					</li>
+					<li>
+						<img src="image/微信.png" />
+					</li>
+					<li>
+						<img src="image/微博.png" />
+					</li>
+					<li>
+						<img src="image/邮箱.png" />
+					</li>
+				</ul>
+			</div>
+
+			<div data-role="panel" id="overlayPanel" data-position="right" data-display="overlay" class="sadasd">
+				<h1 class="sa3">Go旅游
+				<img src="image/Go.png" style="float: right;"/>
+				</h1>
+				<p>
+					<a href="#home" class="ui-btn ui-icon-home ui-btn-icon-left">主页</a>
+				</p>
+				<p>
+					<a href="#plan" class="ui-btn ui-icon-mail ui-btn-icon-left">旅游规划</a>
+				</p>
+				<p>
+					<a href="#strategy" class="ui-btn ui-icon-search ui-btn-icon-left">旅游攻略</a>
+				</p>
+				<p>
+					<a href="#" class="ui-btn ui-icon-phone ui-btn-icon-left">联系我们</a>
+				</p>
+			</div>
+
+		</div>
+
+	</body>
+
+</html>

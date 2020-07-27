@@ -1,0 +1,25 @@
+* {
+	margin: 0;
+	border: none;
+}
+
+html,
+body {
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+}
+
+body {
+	background: radial-gradient(hsl(210, 70%, 50%), hsl(210, 50%, 30%));
+	position: relative;
+	filter: blur(7px);
+}
+
+.drop {
+	height: 30px;
+	width: 30px;
+	background: rgba(255, 255, 255, 0.15);
+	border-radius: 50%;
+	position: absolute;
+}

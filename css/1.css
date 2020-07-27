@@ -1,0 +1,248 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+#aaa {
+	background-color: #e9e9e9;
+	border: 0px;
+	margin: 5px 13px 0 0
+}
+
+#bbb div {
+	display: none;
+}
+
+hr {
+	margin: 10px 0 0 0;
+	border: none;
+	border-top: 5px solid white;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+textarea,
+input {
+	font-size: 20px;
+}
+
+img {
+	max-width: 100%;
+}
+
+.aaaa {
+	display: block;
+	margin: 16px;
+	border: 1em solid transparent;
+	background: linear-gradient(white, white) padding-box, repeating-linear-gradient(-45deg, red 0, red 12.5%, transparent 0, transparent 25%, #58a 0, #58a 37.5%, transparent 0, transparent 50%) 0/5em 5em;
+	animation: ants 1s linear infinite;
+}
+
+h1 {
+	color: #000000;
+}
+
+.show h3 {
+	color: #918682;
+	margin-top: 5px;
+}
+
+.show a {
+	border: 0;
+}
+
+.concent {
+	width: 100%;
+	max-width: 750px;
+	min-width: 320px;
+}
+
+.box {
+	white-space: nowrap;
+	overflow-x: auto;
+}
+
+
+/*注释1*/
+
+.box::-webkit-scrollbar {
+	width: 0;
+	height: 0;
+	display: none;
+}
+
+
+/*注释2*/
+
+.box div {
+	list-style: none;
+	display: inline-block;
+	width: 100px;
+	line-height: 30px;
+	margin-left: 1em;
+	text-align: center;
+}
+
+
+/*注释3*/
+
+.box p {
+	font-size: 17px;
+}
+
+#btn {
+	border-radius: 40px;
+	background-color: lightgreen;
+}
+
+.footer {
+	background-color: burlywood;
+}
+
+.footer li {
+	text-align: center;
+	list-style: none;
+	float: left;
+	width: 25%;
+}
+
+.sa3 {
+	margin: 30px 0;
+}
+
+.sadasd {
+	background-color: saddlebrown;
+}
+
+#asd {
+	height: 147px;
+	overflow: hidden
+}
+
+#wrap ul,
+li {
+	list-style: none
+}
+
+.tabClick {
+	background: #f3f3f3;
+	overflow: hidden
+}
+
+.tabClick li {
+	height: 40px;
+	line-height: 40px;
+	width: 25%;
+	float: left;
+	text-align: center
+}
+
+.tabClick li.active {
+	color: #099;
+	transition: 0.1s;
+	font-weight: bold
+}
+
+.tabCon {
+	overflow: hidden
+}
+
+.tabBox {
+	position: relative
+}
+
+.tabList {
+	word-break: break-all;
+	width: 100%;
+	float: left;
+	line-height: 100px;
+	text-align: center;
+	color: #D3D3D3;
+	font-family: "Arial Black"
+}
+
+.lineBorder {
+	height: 2px;
+	overflow: hidden;
+	border-bottom: 1px solid #099;
+	background: #f3f3f3
+}
+
+.lineDiv {
+	background: #099;
+	height: 2px;
+	width: 25%;
+}
+
+.box2 div {
+	list-style: none;
+	display: inline-block;
+	width: 100px;
+	line-height: 30px;
+	margin: 5px 0 0 0px;
+	text-align: center;
+}
+
+.box2 p {
+	color: #000000;
+	font-size: 13px;
+	margin-top: -10px;
+	text-align: left;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.box2 p:nth-child(3) {
+	color: cornflowerblue;
+}
+
+#HK h2 {
+	color: #000000;
+	text-align: center;
+}
+
+#HK .show a {
+	background-color: lightgoldenrodyellow;
+}
+
+#HK .show p {
+	font-size: 17px;
+	text-indent: 1em
+}
+
+.MAPSS {
+	position: relative;
+}
+
+.MAPSS p {
+	font-size: 20px;
+	color: white;
+	position: absolute;
+	top: 120px;
+	left: 10px;
+}
+.MAPSS p:nth-child(3) {
+	font-size: 14px;
+	color: white;
+	position: absolute;
+	top: 127px;
+	left: 60px;
+}
+.MAPSS p:nth-child(4) {
+	font-size: 14px;
+	color: white;
+	position: absolute;
+	top: 150px;
+	left: 13px;
+}
+.hrs{
+	margin: 0 15px 15px 15px;
+	padding-top: 10px;
+	text-align: center;
+	font-size: 16px;
+	border-top: 1px solid #0099f7;
+}
